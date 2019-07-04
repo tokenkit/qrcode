@@ -3,6 +3,20 @@
 
 > Based on [qrcodejs](https://github.com/davidshimjs/qrcodejs) and [jsqrcode](https://github.com/LazarSoft/jsqrcode)
 
+### Install
+Add Github repo url as dependency
+```json
+{
+    "dependencies": {
+        "qrcode": "git+https://github.com/tokenkit/qrcode.git"
+    }
+}
+```
+And
+```sh
+npm install
+```
+
 ### API in ES6
 
 ```js
