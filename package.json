@@ -1,0 +1,19 @@
+{
+  "name": "qrcode",
+  "version": "1.0.0",
+  "description": "> Based on [qrcodejs](https://github.com/davidshimjs/qrcodejs) and [jsqrcode](https://github.com/LazarSoft/jsqrcode)",
+  "main": "qrcode.js",
+  "scripts": {
+    "build": "cd test && ../node_modules/.bin/webpack test.js -o test.bundle.js",
+    "server": "cd test && ../node_modules/.bin/browser-sync start --server",
+    "test": "npm run build && npm run server"
+  },
+  "keywords": [],
+  "author": "tokenkit",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  }
+}

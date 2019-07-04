@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Decode QRCode from image using javascript</title>
+<style type="text/css">
+img { vertical-align: top; margin-right: 50px; }
+#error { color: #f00; }
+.flex {display: flex;}
+</style>
+</head>
+<body>
+<p>
+  <input type="file" name="" id="file" />
+  <input type="button" id="decode" value="Decode"/>
+  <input type="button" id="encode" value="ReEncode"/>
+</p>
+<textarea name="" id="text" cols="100" rows="10"></textarea>
+<p id="error"></p>
+<div class="flex">
+  <img alt="" id="img">
+  <div id="qrcode-image"></div>
+</div>
+<script type="text/javascript" src="test.bundle.js"></script>
+</body>
+</html>
