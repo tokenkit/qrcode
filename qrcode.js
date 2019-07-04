@@ -4595,9 +4595,11 @@ var QRCode;
   QRCode.CorrectLevel = QRErrorCorrectLevel;
 })();
 
-qrcode.encode = function(id, textString) {
-  return new QRCode(id, textString)
+qrcode.encode = function() {
+  var args = Array.prototype.slice.call(arguments)
+  return new (Function.prototype.bind.apply(QRCode, [null].concat(args)))
 }
+
 window.qrcode = qrcode
 return qrcode
 

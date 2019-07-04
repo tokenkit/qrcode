@@ -18,6 +18,8 @@ qrcode.decode(ImageBase64Str, (err, data) => {
 })
 ```
 
+For more `qrcode.encode()` options, see [Base Usages](https://github.com/davidshimjs/qrcodejs#basic-usages)
+
 ### Demo
 
 ```sh
