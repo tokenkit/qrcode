@@ -12,7 +12,7 @@
   "author": "tokenkit",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5"
   }
